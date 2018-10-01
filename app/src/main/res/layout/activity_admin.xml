@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.AdminActivity"
+    android:background="#e9fff4">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="#4e9e78">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="SYSTEM ADMINISTRATOR"
+                android:textColor="#ffffff"
+                android:textSize="30dp"
+                android:fontFamily="@font/kanit_medium"
+                />
+
+
+
+        </RelativeLayout>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/news"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#5a8b6f"
+                    android:padding="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:textColor="#ffffff"
+                    android:text="NEWS"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/kanit_medium"/>
+
+                <Button
+                    android:id="@+id/queue"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#5a8b6f"
+                    android:fontFamily="@font/kanit_medium"
+                    android:padding="10dp"
+                    android:text="QUEUE"
+                    android:textColor="#ffffff"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/regis"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#5a8b6f"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:textColor="#ffffff"
+                    android:text="REGISTER"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/kanit_medium"/>
+
+
+
+
+                <Button
+                    android:id="@+id/seeq"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#5a8b6f"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:textColor="#ffffff"
+                    android:text="VIEW QUEUE"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/kanit_medium"/>
+
+
+
+                <Button
+                    android:id="@+id/plus"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#5a8b6f"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:textColor="#ffffff"
+                    android:text="QUEUE RESERVATION"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/kanit_medium"/>
+
+                <Button
+                    android:id="@+id/logh"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ff0004"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:textColor="#ffffff"
+                    android:text="LOGOUT ADMIN"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/kanit_medium"/>
+
+
+
+
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

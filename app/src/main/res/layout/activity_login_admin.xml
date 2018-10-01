@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.LoginAdminActivity"
+    android:background="#e9fff4">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <RelativeLayout
+            android:background="#4e9e78"
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+
+            <ImageView
+                android:id="@+id/backo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_action_back"
+                android:layout_marginTop="13dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="ADMIN LOGIN"
+                android:layout_centerInParent="true"
+                android:textSize="30dp"
+                />
+
+        </RelativeLayout>
+
+
+
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+                <EditText
+                    android:id="@+id/adminname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:hint="EMAIL"
+                    android:textColor="#000000"
+                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:padding="15dp"/>
+
+
+
+                <EditText
+                    android:id="@+id/addminpassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:hint="PASSWORD"
+                    android:textColor="#000000"
+                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:padding="15dp"/>
+
+
+
+                <Button
+                    android:id="@+id/comfirm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="CoNFIRM"
+                    android:fontFamily="@font/kanit_medium"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/green"
+                    android:padding="10dp"
+                    android:textColor="#ffffff"/>
+
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

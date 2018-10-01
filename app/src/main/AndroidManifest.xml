@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.delaroystudios.sqlitelogin">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_applogo1"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.UsersActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Systemusers.FirstActivity"
+            android:label="@string/title_activity_first"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".QueueActivity"
+            android:label="@string/title_activity_queue"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Systemusers.Setting"
+            android:label="@string/title_activity_setting"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TicketQActivity"
+            android:label="@string/title_activity_ticket_q"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Systemusers.RecommendActivity"
+            android:label="@string/title_activity_recommend"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".Admin.AdminActivity"
+            android:label="@string/title_activity_admin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminTicketActivity"
+            android:label="@string/title_activity_admin_ticket"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Admin.AdminNewsActivity"
+            android:label="@string/title_activity_admin_news"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Admin.AdminRegisterActivity"
+            android:label="@string/title_activity_admin_register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminQueueActivity"
+            android:label="@string/title_activity_admin_queue"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminPlusQActivity"
+            android:label="@string/title_activity_admin_plus_q"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ItemUserRecycle"
+            android:label="@string/title_activity_item_user_recycle"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Admin.LoginAdminActivity"
+            android:label="@string/title_activity_login_admin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NEWS.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
